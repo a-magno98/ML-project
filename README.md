@@ -4,7 +4,9 @@ Machine Learning Project IDEA
 
 This project makes use of different machine learning algorithms to make binary classification on financial data and predict a stock is worth buying or not.
 From a trading perspective:
+
   -the 1 identifies those stocks that a hypothetical trader should buy at the start of the year and sell at the end of the year for a profit
+  
   -the 0 identifies those stocks that a hypothetical trader should not buy since their value will decrease, meaning a loss of capital.
   
 Data repository:
