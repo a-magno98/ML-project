@@ -2,4 +2,18 @@
 
 Machine Learning Project IDEA
 
-The type of project I would plan to execute is the second one (focus on data). The idea is to answer a fairly complicated question for investors, namely, whether the price of a stock will rise or fall. The purpose of the project is to try to predict whether the closing price of a stock will rise or fall below the closing price of the previous trading day. The problem belongs to a classification problem. I am still undecided about the methods to be used, the ones I thought of are logistic regression, SVM and also another one that was not seen in class the decision tree. Regarding the data, I could download them for free from yahoo finance, which seem quite realistic to me.
+This project makes use of different machine learning algorithms to make binary classification on financial data and predict a stock is worth buying or not.
+From a trading perspective:
+  -the 1 identifies those stocks that a hypothetical trader should buy at the start of the year and sell at the end of the year for a profit
+  -the 0 identifies those stocks that a hypothetical trader should not buy since their value will decrease, meaning a loss of capital.
+  
+Data repository:
+  -5 Datasets (2014-2018), each with 200+ Financial Indicators of US stocks.
+  -The last column of datasets is ‘class’, lists a binary classification for each stock.
+
+Learning pipeline:
+  -Data Preprocessing
+  -Model Tuning
+  -Train the models
+  -Evaluate the trained models
+
